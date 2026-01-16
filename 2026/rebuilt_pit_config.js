@@ -56,7 +56,7 @@ var config_data = `
             "type": "bool"
         },
         {
-            "name": "Highest Hang Level",
+            "name": "Highest Endgame Hang Level",
             "code": "HNG",
             "type": "radio",
             "choices": {
