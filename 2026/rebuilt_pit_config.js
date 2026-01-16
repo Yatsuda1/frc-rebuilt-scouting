@@ -34,72 +34,40 @@ var config_data = `
             "defaultValue": "s"
         },
         {
-            "name": "Can Intake Algae From",
+            "name": "Can Intake Fuel From",
             "code": "IAF",
             "type": "radio",
             "choices": {
                 "g": "Ground<br>",
-                "r": "Reef<br>",
+                "o": "Outpost<br>",
                 "b": "Both<br>",
                 "n": "None"
             },
-            "defaultValue": "r"
+            "defaultValue": "n"
         },
-         {
-            "name": "Can Process Algae?",
-            "code": "ASP",
-            "type": "bool"
-        },
-         {
-            "name": "Can Score Algae In Net?",
+        {
+            "name": "Can Score Fuel In Hub?",
             "code": "ASN",
             "type": "bool"
         },
         {
-            "name": "Can Intake Coral From",
-            "code": "ICF",
-            "type": "radio",
-            "choices": {
-                "g": "Ground<br>",
-                "f": "Coral Station<br>",
-                "b": "Both<br>",
-                "n": "None"
-            },
-            "defaultValue": "f"
-        },
-        {
-            "name": "Can Score Coral L1?",
-            "code": "Cl1",
+            "name": "Can Climb In Auto?",
+            "code": "ASN",
             "type": "bool"
         },
         {
-            "name": "Can Score Coral L2?",
-            "code": "CL2",
-            "type": "bool"
-        },
-        {
-            "name": "Can Score Coral L3?",
-            "code": "CL3",
-            "type": "bool"
-        },
-        {
-            "name": "Can Score Coral L4?",
-            "code": "CL4",
-            "type": "bool"
-        },
-        {
-            "name": "Barge Hang",
+            "name": "Highest Hang Level",
             "code": "hng",
             "type": "radio",
             "choices": {
-                "d": "Deep Hang<br>",
-                "s": "Shallow Hang<br>",
-                "b": "Both<br>",
+                "1": "L1<br>",
+                "2": "L2<br>",
+                "3": "L3<br>",
                 "n": "None"
             }
         },
         {
-            "name": "Best Auto",
+            "name": "Max Fuel Capacity",
             "code": "apc",
             "type": "text",
             "size": 20,
