@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2025micmp2",
+      "defaultValue": "2026milac",
       "required": "true"
     },
     { "name": "Match Level",
@@ -58,7 +58,7 @@ var config_data = `
     { "name": "Auto Start Position",
       "code": "as",
       "type": "clickable_image",
-      "filename": "2024/field_image.png",
+      "filename": "2026/field_image.png",
       "clickRestriction": "one",
       "allowableResponses": "6 7 18 19 30 31 42 43 54 55 66 67",
       "shape": "circle 5 black red true"
