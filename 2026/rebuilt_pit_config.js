@@ -7,23 +7,23 @@ var config_data = `
     "prematch": [
         {
             "name": "Team Number",
-            "code": "t",
+            "code": "TMN",
             "type": "number"
         },
         {
             "name": "Dimensions",
-            "code": "dmn",
+            "code": "DMN",
             "type": "text"
         },
         {
             "name": "Weight",
-            "code": "wei",
+            "code": "LBS",
             "type": "number",
             "defaultValue": "0"
         },
         {
             "name": "Drivetrain",
-            "code": "drv",
+            "code": "DRV",
             "type": "radio",
             "choices": {
                 "s": "Swerve<br>",
@@ -35,7 +35,7 @@ var config_data = `
         },
         {
             "name": "Can Intake Fuel From",
-            "code": "IAF",
+            "code": "ITF",
             "type": "radio",
             "choices": {
                 "g": "Ground<br>",
@@ -47,17 +47,17 @@ var config_data = `
         },
         {
             "name": "Can Score Fuel In Hub?",
-            "code": "ASN",
+            "code": "HUB",
             "type": "bool"
         },
         {
             "name": "Can Climb In Auto?",
-            "code": "ASN",
+            "code": "AUC",
             "type": "bool"
         },
         {
             "name": "Highest Hang Level",
-            "code": "hng",
+            "code": "HNG",
             "type": "radio",
             "choices": {
                 "1": "L1<br>",
@@ -68,21 +68,20 @@ var config_data = `
         },
         {
             "name": "Max Fuel Capacity",
-            "code": "apc",
-            "type": "text",
-            "size": 20,
+            "code": "MFC",
+            "type": "number",
             "maxSize": 100
         },
         {
             "name": "Comments",
-            "code": "co",
+            "code": "COM",
             "type": "text",
             "size": 20,
             "maxSize": 250
         },
         {
             "name": "Took a picture?",
-            "code": "pic",
+            "code": "PIC",
             "type": "bool"
         }
     ],
