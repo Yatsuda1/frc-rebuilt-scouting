@@ -23,7 +23,7 @@ var config_data = `
         },
         {
             "name": "Drivetrain",
-            "code": "DRV",
+            "code": "DVT",
             "type": "radio",
             "choices": {
                 "s": "Swerve<br>",
