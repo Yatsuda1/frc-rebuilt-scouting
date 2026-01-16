@@ -69,8 +69,7 @@ var config_data = `
         {
             "name": "Max Fuel Capacity",
             "code": "MFC",
-            "type": "number",
-            "maxSize": 100
+            "type": "number"
         },
         {
             "name": "Comments",
