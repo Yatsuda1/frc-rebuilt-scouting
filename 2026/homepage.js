@@ -1,7 +1,7 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Reefscape Scouting 2025",
-  "page_title": "Reefscape",
+  "title": "Rebuilt Scouting 2026",
+  "page_title": "Rebuilt",
   "checkboxAs": "10",
 }`;
