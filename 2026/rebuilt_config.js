@@ -113,7 +113,8 @@ var config_data = `
      { "name": "Missed Fuel",
       "code": "tm1",
       "type": "counter"
-    },  ],
+    }
+  ],
   "endgame": [
     { "name": "Tower Climb Timer",
       "code": "ect",
