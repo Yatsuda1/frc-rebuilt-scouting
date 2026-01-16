@@ -68,39 +68,31 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { "name": "L4 Coral Scores",
+    { "name": "Dumps 8",
       "code": "ac4",
       "type": "counter"
     },
-    { "name": "L3 Coral Scores",
+    { "name": "Dumps 100%",
       "code": "ac3",
       "type": "counter"
     },
-    { "name": "L2 Coral Scores",
+    { "name": "Dumps 50%",
       "code": "ac2",
       "type": "counter"
     },
-    { "name": "L1 Coral Scores",
+    { "name": "Dumps 10%",
       "code": "ac1",
       "type": "counter"
     },
-     { "name": "Coral Drops",
+     { "name": "Missed Fuel +1",
       "code": "acd",
       "type": "counter"
     },
-    { "name": "Processor Scores",
+    { "name": "Missed Fuel -1",
       "code": "aps",
       "type": "counter"
-    },
-    { "name": "Net Scores",
-      "code": "ans",
-      "type": "counter"
-    },
-    { "name": "Algae Drops",
-      "code": "ad",
-      "type": "counter"
     }
-  ],
+      ],
   "teleop": [
     { "name": "L4 Coral Scores",
       "code": "tc4",
