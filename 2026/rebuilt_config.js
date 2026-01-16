@@ -69,28 +69,32 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Dumps 8",
-      "code": "ac4",
+      "code": "d8",
       "type": "counter"
     },
     { "name": "Dumps 100%",
-      "code": "ac3",
+      "code": "d1",
       "type": "counter"
     },
     { "name": "Dumps 50%",
-      "code": "ac2",
+      "code": "d5",
       "type": "counter"
     },
     { "name": "Dumps 10%",
-      "code": "ac1",
+      "code": "d0",
       "type": "counter"
     },
      { "name": "Missed Fuel +1",
-      "code": "acd",
+      "code": "m1",
       "type": "counter"
     },
     { "name": "Missed Fuel -1",
-      "code": "aps",
+      "code": "um",
       "type": "counter"
+    },
+     { "name": "Climbed to L1",
+      "code": "ac",
+      "type": "bool"
     }
       ],
   "teleop": [
