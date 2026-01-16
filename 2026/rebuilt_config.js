@@ -6,20 +6,20 @@ var config_data = `
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
-      "code": "s",
+      "code": "sct",
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
       "required": "true"
     },
     { "name": "Event",
-      "code": "e",
+      "code": "evn",
       "type": "event",
       "defaultValue": "2026milac",
       "required": "true"
     },
     { "name": "Match Level",
-      "code": "l",
+      "code": "lvl",
       "type": "level",
       "choices": {
         "qm": "Quals<br>",
@@ -30,14 +30,14 @@ var config_data = `
       "required": "true"
     },
     { "name": "Match #",
-      "code": "m",
+      "code": "num",
       "type": "match",
       "min": 1,
       "max": 150,
       "required": "true"
     },
     { "name": "Robot",
-      "code": "r",
+      "code": "rob",
       "type": "robot",
       "choices": {
         "r1": "Red-1",
@@ -50,13 +50,13 @@ var config_data = `
       "required":"true"
     },
     { "name": "Team #",
-      "code": "t",
+      "code": "team",
       "type": "team",
       "min": 1,
       "max": 99999
     },
     { "name": "Auto Start Position",
-      "code": "as",
+      "code": "asp",
       "type": "clickable_image",
       "filename": "2026/field_image.png",
       "clickRestriction": "one",
@@ -65,62 +65,62 @@ var config_data = `
   ],
   "auton": [
     { "name": "Leave Starting Zone",
-      "code": "al",
+      "code": "alz",
       "type": "bool"
     },
     { "name": "Dumps 8",
-      "code": "d8",
+      "code": "au8",
       "type": "counter"
     },
     { "name": "Dumps 100%",
-      "code": "d1",
+      "code": "ad1",
       "type": "counter"
     },
     { "name": "Dumps 50%",
-      "code": "d5",
+      "code": "ad5",
       "type": "counter"
     },
     { "name": "Dumps 25%",
-      "code": "d2",
+      "code": "ad2",
       "type": "counter"
     },
      { "name": "Missed Fuel",
-      "code": "m1",
+      "code": "amf",
       "type": "counter"
     },
      { "name": "Climbed to L1",
-      "code": "ac",
+      "code": "ac1",
       "type": "bool"
     }
       ],
   "teleop": [
     { "name": "Dumps 8",
-      "code": "d8",
+      "code": "td8",
       "type": "counter"
     },
     { "name": "Dumps 100%",
-      "code": "d1",
+      "code": "td1",
       "type": "counter"
     },
     { "name": "Dumps 50%",
-      "code": "d5",
+      "code": "td5",
       "type": "counter"
     },
     { "name": "Dumps 25%",
-      "code": "d2",
+      "code": "td2",
       "type": "counter"
     },
      { "name": "Missed Fuel",
-      "code": "m1",
+      "code": "tm1",
       "type": "counter"
     },  ],
   "endgame": [
     { "name": "Tower Climb Timer",
-      "code": "eb",
+      "code": "ect",
       "type": "timer"
     },
     { "name": "Final Status",
-      "code": "fs",
+      "code": "efs",
       "type":"radio",
       "choices": {
         "L1": "Level 1 Climb<br>",
@@ -141,8 +141,14 @@ var config_data = `
       "code": "tip",
       "type": "bool"
     },
+    { "name": "Downtime Action",
+      "code": "dow",
+      "type": "text",
+      "size": 15,
+      "maxSize": 150
+    },
     { "name": "Comments",
-      "code": "co",
+      "code": "cmm",
       "type": "text",
       "size": 15,
       "maxSize": 150
