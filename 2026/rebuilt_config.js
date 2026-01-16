@@ -80,8 +80,8 @@ var config_data = `
       "code": "d5",
       "type": "counter"
     },
-    { "name": "Dumps 10%",
-      "code": "d0",
+    { "name": "Dumps 25%",
+      "code": "d2",
       "type": "counter"
     },
      { "name": "Missed Fuel",
@@ -94,41 +94,28 @@ var config_data = `
     }
       ],
   "teleop": [
-    { "name": "L4 Coral Scores",
-      "code": "tc4",
+    { "name": "Dumps 8",
+      "code": "d8",
       "type": "counter"
     },
-    { "name": "L3 Coral Scores",
-      "code": "tc3",
+    { "name": "Dumps 100%",
+      "code": "d1",
       "type": "counter"
     },
-    { "name": "L2 Coral Scores",
-      "code": "tc2",
+    { "name": "Dumps 50%",
+      "code": "d5",
       "type": "counter"
     },
-    { "name": "L1 Coral Scores",
-      "code": "tc1",
+    { "name": "Dumps 25%",
+      "code": "d2",
       "type": "counter"
     },
-        { "name": "Coral Drops",
-      "code": "tcd",
+     { "name": "Missed Fuel",
+      "code": "m1",
       "type": "counter"
-    },
-    { "name": "Processor Scores",
-      "code": "tps",
-      "type": "counter"
-    },
-    { "name": "Net Scores",
-      "code": "tns",
-      "type": "counter"
-    },
-    { "name": "Algae Drops",
-      "code": "tad",
-      "type": "counter"
-    }
-  ],
+    },  ],
   "endgame": [
-    { "name": "Barge Timer",
+    { "name": "Tower Climb Timer",
       "code": "eb",
       "type": "timer"
     },
@@ -136,9 +123,9 @@ var config_data = `
       "code": "fs",
       "type":"radio",
       "choices": {
-        "bs": "Shallow Hang<br>",
-        "bd": "Deep Hang<br>",
-        "bp": "Parked<br>",
+        "L1": "Level 1 Climb<br>",
+        "L2": "Level 2 Climb<br>",
+        "L3": "Level 3 Climb<br>",
         "bf": "Failed Climb<br>",
         "bx": "Not attempted"
       },
