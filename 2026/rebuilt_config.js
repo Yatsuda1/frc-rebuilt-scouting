@@ -84,12 +84,8 @@ var config_data = `
       "code": "d0",
       "type": "counter"
     },
-     { "name": "Missed Fuel +1",
+     { "name": "Missed Fuel",
       "code": "m1",
-      "type": "counter"
-    },
-    { "name": "Missed Fuel -1",
-      "code": "um",
       "type": "counter"
     },
      { "name": "Climbed to L1",
