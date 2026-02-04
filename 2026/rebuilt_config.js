@@ -147,14 +147,15 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Downtime Actions",
-      "code": "efs",
+      "code": "dta",
       "type":"radio",
       "choices": {
         "D": "Defence<br>",
         "P": "Pickup Fuel<br>",
         "B": "Both<br>",
         "N": "No Actions<br>"
-      },
+      }
+    },
     { "name": "Comments",
       "code": "cmm",
       "type": "text",
