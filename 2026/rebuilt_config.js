@@ -76,15 +76,11 @@ var config_data = `
       "code": "ad1",
       "type": "counter"
     },
-     { "name": "Dumps 75%",
-      "code": "td1",
-      "type": "counter"
-    },
     { "name": "Dumps 50%",
       "code": "ad5",
       "type": "counter"
     },
-    { "name": "Dumps 25%",
+    { "name": "Dumps 15%",
       "code": "ad2",
       "type": "counter"
     },
@@ -102,15 +98,11 @@ var config_data = `
       "code": "td1",
       "type": "counter"
     },
-     { "name": "Dumps 75%",
-      "code": "td1",
-      "type": "counter"
-    },
     { "name": "Dumps 50%",
       "code": "td5",
       "type": "counter"
     },
-    { "name": "Dumps 25%",
+    { "name": "Dumps 15%",
       "code": "td2",
       "type": "counter"
     },
