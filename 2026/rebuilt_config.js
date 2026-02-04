@@ -80,7 +80,7 @@ var config_data = `
       "code": "ad5",
       "type": "counter"
     },
-    { "name": "Dumps 15%",
+    { "name": "Dumps 20%",
       "code": "ad2",
       "type": "counter"
     },
@@ -94,6 +94,10 @@ var config_data = `
     }
       ],
   "teleop": [
+     { "name": "Won Auto?",
+      "code": "taw",
+      "type": "bool"
+    },
     { "name": "Dumps 100%",
       "code": "td1",
       "type": "counter"
@@ -102,7 +106,7 @@ var config_data = `
       "code": "td5",
       "type": "counter"
     },
-    { "name": "Dumps 15%",
+    { "name": "Dumps 20%",
       "code": "td2",
       "type": "counter"
     },
