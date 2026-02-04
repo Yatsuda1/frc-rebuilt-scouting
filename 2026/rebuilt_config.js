@@ -153,7 +153,7 @@ var config_data = `
         "D": "Defence<br>",
         "P": "Pickup Fuel<br>",
         "B": "Both<br>",
-        "N": "No Actions<br>",
+        "N": "No Actions<br>"
       },
     { "name": "Comments",
       "code": "cmm",
