@@ -6,24 +6,39 @@ var config_data = `
     "pitConfig": "true",
     "prematch": [
         {
+            "name": "Event",
+            "code": "e",
+            "type": "text",
+            "size": 5,
+            "maxSize": 5,
+            "defaultValue": "2026milac"
+        },
+         {
+            "name": "Scouter Initials",
+            "code": "s",
+            "type": "text",
+            "size": 5,
+            "maxSize": 5
+        },
+        {
             "name": "Team Number",
-            "code": "TMN",
+            "code": "t",
             "type": "number"
         },
         {
             "name": "Dimensions",
-            "code": "DMN",
+            "code": "dmn",
             "type": "text"
         },
         {
             "name": "Weight",
-            "code": "LBS",
+            "code": "lbs",
             "type": "number",
             "defaultValue": "0"
         },
         {
             "name": "Drivetrain",
-            "code": "DVT",
+            "code": "dvt",
             "type": "radio",
             "choices": {
                 "s": "Swerve<br>",
@@ -35,7 +50,7 @@ var config_data = `
         },
         {
             "name": "Can Intake Fuel From",
-            "code": "ITF",
+            "code": "int",
             "type": "radio",
             "choices": {
                 "g": "Ground<br>",
@@ -47,17 +62,17 @@ var config_data = `
         },
         {
             "name": "Can Score Fuel In Hub?",
-            "code": "HUB",
+            "code": "hub",
             "type": "bool"
         },
         {
             "name": "Can Climb In Auto?",
-            "code": "AUC",
+            "code": "auc",
             "type": "bool"
         },
         {
             "name": "Highest Endgame Hang Level",
-            "code": "HNG",
+            "code": "hng",
             "type": "radio",
             "choices": {
                 "1": "L1<br>",
@@ -68,19 +83,19 @@ var config_data = `
         },
         {
             "name": "Max Fuel Capacity",
-            "code": "MFC",
+            "code": "mfc",
             "type": "number"
         },
         {
             "name": "Comments",
-            "code": "COM",
+            "code": "com",
             "type": "text",
             "size": 20,
             "maxSize": 250
         },
         {
             "name": "Took a picture?",
-            "code": "PIC",
+            "code": "pic",
             "type": "bool"
         }
     ],
