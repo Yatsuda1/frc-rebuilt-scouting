@@ -6,20 +6,20 @@ var config_data = `
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
-      "code": "sct",
+      "code": "s",
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
       "required": "true"
     },
     { "name": "Event",
-      "code": "evn",
+      "code": "e",
       "type": "event",
       "defaultValue": "2026milac",
       "required": "true"
     },
     { "name": "Match Level",
-      "code": "lvl",
+      "code": "l",
       "type": "level",
       "choices": {
         "qm": "Quals<br>",
@@ -30,14 +30,14 @@ var config_data = `
       "required": "true"
     },
     { "name": "Match #",
-      "code": "num",
+      "code": "m",
       "type": "match",
       "min": 1,
       "max": 150,
       "required": "true"
     },
     { "name": "Robot",
-      "code": "rob",
+      "code": "r",
       "type": "robot",
       "choices": {
         "r1": "Red-1",
