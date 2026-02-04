@@ -69,11 +69,15 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Dumps 8",
-      "code": "au8",
-      "type": "counter"
+      "code": "ad8",
+      "type": "bool"
     },
     { "name": "Dumps 100%",
       "code": "ad1",
+      "type": "counter"
+    },
+     { "name": "Dumps 75%",
+      "code": "td1",
       "type": "counter"
     },
     { "name": "Dumps 50%",
@@ -94,11 +98,11 @@ var config_data = `
     }
       ],
   "teleop": [
-    { "name": "Dumps 8",
-      "code": "td8",
+    { "name": "Dumps 100%",
+      "code": "td1",
       "type": "counter"
     },
-    { "name": "Dumps 100%",
+     { "name": "Dumps 75%",
       "code": "td1",
       "type": "counter"
     },
@@ -142,12 +146,15 @@ var config_data = `
       "code": "tip",
       "type": "bool"
     },
-    { "name": "Downtime Action",
-      "code": "dow",
-      "type": "text",
-      "size": 15,
-      "maxSize": 150
-    },
+    { "name": "Downtime Actions",
+      "code": "efs",
+      "type":"radio",
+      "choices": {
+        "D": "Defence<br>",
+        "P": "Pickup Fuel<br>",
+        "B": "Both<br>",
+        "N": "No Actions<br>",
+      },
     { "name": "Comments",
       "code": "cmm",
       "type": "text",
