@@ -1,7 +1,7 @@
 // ScoutingPASS.js
 //
 // The guts of the ScountingPASS application
-// Written by Team 2451 - PWNAGE, modified by Team 5505 Volts Squared
+// Written by Team 2451 - PWNAGE, modified by Team 3603, The Cyber Coyotes
 
 document.addEventListener("touchstart", startTouch, false);
 document.addEventListener("touchend", moveTouch, false);
