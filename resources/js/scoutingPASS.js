@@ -850,7 +850,7 @@ function getData(dataFormat) {
     Array.from(fd.keys()).forEach(thisKey => {
       str.push(fd.get(thisKey))
     });
-    return str.join("\t")
+    return str.join(",")
   } else {
     return "unsupported dataFormat"
   }
