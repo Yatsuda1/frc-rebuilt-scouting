@@ -1,4 +1,5 @@
 var config_data = `
+
 {
   "dataFormat": "tsv",
   "title": "Rebuilt Scouting 2026",
@@ -88,7 +89,6 @@ var config_data = `
       "code": "amf",
       "type": "counter"
     },
-     },
      { "name": "Scored 1 Fuel",
       "code": "as1",
       "type": "counter"
@@ -119,11 +119,10 @@ var config_data = `
       "code": "tm1",
       "type": "counter"
     },
-    },
      { "name": "Scored 1 Fuel",
       "code": "as1",
       "type": "counter"
-    },
+    }
   ],
   "endgame": [
     { "name": "Tower Climb Timer",
