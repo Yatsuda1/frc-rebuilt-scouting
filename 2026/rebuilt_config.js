@@ -88,6 +88,11 @@ var config_data = `
       "code": "amf",
       "type": "counter"
     },
+     },
+     { "name": "Scored 1 Fuel",
+      "code": "as1",
+      "type": "counter"
+    },
      { "name": "Climbed to L1",
       "code": "ac1",
       "type": "bool"
@@ -113,7 +118,12 @@ var config_data = `
      { "name": "Missed Fuel",
       "code": "tm1",
       "type": "counter"
-    }
+    },
+    },
+     { "name": "Scored 1 Fuel",
+      "code": "as1",
+      "type": "counter"
+    },
   ],
   "endgame": [
     { "name": "Tower Climb Timer",
