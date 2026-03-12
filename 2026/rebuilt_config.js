@@ -90,7 +90,7 @@ var config_data = `
       "type": "counter"
     },
      { "name": "Scored 1 Fuel",
-      "code": "as1",
+      "code": "asc",
       "type": "counter"
     },
      { "name": "Climbed to L1",
@@ -120,7 +120,7 @@ var config_data = `
       "type": "counter"
     },
      { "name": "Scored 1 Fuel",
-      "code": "as1",
+      "code": "tsc",
       "type": "counter"
     }
   ],
