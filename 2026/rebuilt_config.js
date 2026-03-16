@@ -102,7 +102,7 @@ var config_data = `
      { "name": "Missed Fuel",
       "code": "tmf",
       "type": "counter"
-    },
+    }
   ],
   "endgame": [
     { "name": "Tower Climb Timer",
