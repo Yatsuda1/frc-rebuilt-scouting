@@ -7,20 +7,20 @@ var config_data = `
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
-      "code": "s",
+      "code": "si",
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
       "required": "true"
     },
     { "name": "Event",
-      "code": "e",
+      "code": "ev",
       "type": "event",
       "defaultValue": "2026mimus",
       "required": "true"
     },
     { "name": "Match Level",
-      "code": "l",
+      "code": "ml",
       "type": "level",
       "choices": {
         "qm": "Quals<br>",
@@ -31,14 +31,14 @@ var config_data = `
       "required": "true"
     },
     { "name": "Match #",
-      "code": "m",
+      "code": "mn",
       "type": "match",
       "min": 1,
       "max": 150,
       "required": "true"
     },
     { "name": "Robot",
-      "code": "r",
+      "code": "rb",
       "type": "robot",
       "choices": {
         "r1": "Red-1",
@@ -51,7 +51,7 @@ var config_data = `
       "required":"true"
     },
     { "name": "Team #",
-      "code": "t",
+      "code": "tn",
       "type": "team",
       "min": 1,
       "max": 99999
@@ -70,11 +70,11 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Shot 1",
-      "code": "ad1",
+      "code": "as1",
       "type": "counter"
     },
     { "name": "Shot 5",
-      "code": "ad5",
+      "code": "as5",
       "type": "counter"
     },
      { "name": "Missed Fuel",
@@ -92,11 +92,15 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Shot 1",
-      "code": "td1",
+      "code": "ts1",
       "type": "counter"
     },
     { "name": "Shot 5",
-      "code": "td5",
+      "code": "ts5",
+      "type": "counter"
+    },
+     { "name": "Missed Fuel",
+      "code": "tmf",
       "type": "counter"
     },
   ],
