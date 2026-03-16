@@ -36,7 +36,7 @@ var config_data = `
             "name": "Weight",
             "code": "lbs",
             "type": "number",
-            "defaultValue": "0"
+            "defaultValue": "60"
         },
         {
             "name": "Drivetrain",
@@ -93,7 +93,7 @@ var config_data = `
             "code": "com",
             "type": "text",
             "size": 20,
-            "maxSize": 250
+            "maxSize": 100
         },
         {
             "name": "Took a picture?",
