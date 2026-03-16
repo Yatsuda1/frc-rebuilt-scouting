@@ -57,7 +57,7 @@ var config_data = `
         },
                 {
             "name": "Can Fit Inside Tower?",
-            "code": "auc",
+            "code": "tow",
             "type": "bool"
         },
         {
