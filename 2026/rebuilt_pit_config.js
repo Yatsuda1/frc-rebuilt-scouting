@@ -87,7 +87,7 @@ var config_data = `
             }
         },
         {
-            "name": "Comments (Keep It Breif)",
+            "name": "Comments",
             "code": "com",
             "type": "text",
             "size": 20,
