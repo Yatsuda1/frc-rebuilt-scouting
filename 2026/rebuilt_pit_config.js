@@ -101,7 +101,7 @@ var config_data = `
             "type": "bool"
         }
     ],
-    "Auto": [],
+    "auto": [],
     "teleop": [],
     "endgame": [],
     "postmatch": []
