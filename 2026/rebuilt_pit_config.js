@@ -9,26 +9,28 @@ var config_data = `
             "name": "Event",
             "code": "evt",
             "type": "text",
-            "size": 5,
-            "maxSize": 5,
+            "size": 9,
+            "maxSize": 9,
             "defaultValue": "2026mimus"
         },
          {
             "name": "Scouter Initials",
             "code": "sci",
             "type": "text",
-            "size": 5,
-            "maxSize": 5
+            "size": 3,
+            "maxSize": 3
         },
         {
             "name": "Team Number",
             "code": "tea",
             "type": "number"
         },
-        {
+       {
             "name": "Team Name",
             "code": "tmn",
-            "type": "number"
+            "type": "text",
+            "size": 20,
+            "maxSize": 20
         },
         {
             "name": "Weight",
