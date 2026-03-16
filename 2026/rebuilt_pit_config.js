@@ -7,22 +7,27 @@ var config_data = `
     "prematch": [
         {
             "name": "Event",
-            "code": "e",
+            "code": "evt",
             "type": "text",
             "size": 5,
             "maxSize": 5,
-            "defaultValue": "2026milac"
+            "defaultValue": "2026mimus"
         },
          {
             "name": "Scouter Initials",
-            "code": "s",
+            "code": "sci",
             "type": "text",
             "size": 5,
             "maxSize": 5
         },
         {
             "name": "Team Number",
-            "code": "t",
+            "code": "tea",
+            "type": "number"
+        },
+        {
+            "name": "Team Name",
+            "code": "tmn",
             "type": "number"
         },
         {
@@ -49,23 +54,6 @@ var config_data = `
             "defaultValue": "s"
         },
         {
-            "name": "Can Intake Fuel From",
-            "code": "int",
-            "type": "radio",
-            "choices": {
-                "g": "Ground<br>",
-                "o": "Outpost<br>",
-                "b": "Both<br>",
-                "n": "None"
-            },
-            "defaultValue": "n"
-        },
-        {
-            "name": "Can Score Fuel In Hub?",
-            "code": "hub",
-            "type": "bool"
-        },
-        {
             "name": "Can Climb In Auto?",
             "code": "auc",
             "type": "bool"
@@ -85,6 +73,17 @@ var config_data = `
             "name": "Max Fuel Capacity",
             "code": "mfc",
             "type": "number"
+        },
+         {
+            "name": "Robot Style",
+            "code": "sty",
+            "type": "radio",
+            "choices": {
+                "S": "Shooter<br>",
+                "T": "Turret<br>",
+                "D": "Double Shooter<br>",
+                "K": "Kitbot"
+            }
         },
         {
             "name": "Comments",
