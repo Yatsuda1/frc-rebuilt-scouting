@@ -72,7 +72,7 @@ var config_data = `
         {
             "name": "Max Fuel Capacity (Leave at Default for Kitbots)",
             "code": "mfc",
-            "type": "number"
+            "type": "number",
             "defaultValue": "15"
         },
          {
