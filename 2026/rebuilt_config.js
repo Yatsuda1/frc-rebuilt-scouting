@@ -7,20 +7,20 @@ var config_data = `
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
-      "code": "si",
+      "code": "s",
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
       "required": "true"
     },
     { "name": "Event",
-      "code": "ev",
+      "code": "e",
       "type": "event",
       "defaultValue": "2026mimus",
       "required": "true"
     },
     { "name": "Match Level",
-      "code": "ml",
+      "code": "l",
       "type": "level",
       "choices": {
         "qm": "Quals<br>",
@@ -31,14 +31,14 @@ var config_data = `
       "required": "true"
     },
     { "name": "Match #",
-      "code": "mn",
+      "code": "m",
       "type": "match",
       "min": 1,
       "max": 150,
       "required": "true"
     },
     { "name": "Robot",
-      "code": "rb",
+      "code": "r",
       "type": "robot",
       "choices": {
         "r1": "Red-1",
@@ -51,7 +51,7 @@ var config_data = `
       "required":"true"
     },
     { "name": "Team #",
-      "code": "tn",
+      "code": "t",
       "type": "team",
       "min": 1,
       "max": 99999
