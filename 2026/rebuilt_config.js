@@ -113,11 +113,11 @@ var config_data = `
       "code": "efs",
       "type":"radio",
       "choices": {
-        "L1": "Level 1 Climb<br>",
-        "L2": "Level 2 Climb<br>",
-        "L3": "Level 3 Climb<br>",
-        "bf": "Failed Climb<br>",
-        "bx": "Not attempted"
+        "1": "Level 1 Climb<br>",
+        "2": "Level 2 Climb<br>",
+        "3": "Level 3 Climb<br>",
+        "F": "Failed Climb<br>",
+        "X": "Not attempted"
       },
       "defaultValue": "bf"
     }
@@ -141,10 +141,10 @@ var config_data = `
         "N": "No Actions<br>"
       }
     },
-    { "name": "Comments (Keep Breif)",
+    { "name": "Comments (Keep Brief)",
       "code": "cmm",
       "type": "text",
-      "size": 15,
+      "size": 20,
       "maxSize": 150
     }
   ]
