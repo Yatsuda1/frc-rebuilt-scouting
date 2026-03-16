@@ -31,11 +31,6 @@ var config_data = `
             "type": "number"
         },
         {
-            "name": "Dimensions",
-            "code": "dmn",
-            "type": "text"
-        },
-        {
             "name": "Weight",
             "code": "lbs",
             "type": "number",
@@ -58,6 +53,11 @@ var config_data = `
             "code": "auc",
             "type": "bool"
         },
+                {
+            "name": "Can Fit Inside Tower?",
+            "code": "auc",
+            "type": "bool"
+        },
         {
             "name": "Highest Endgame Hang Level",
             "code": "hng",
@@ -70,9 +70,10 @@ var config_data = `
             }
         },
         {
-            "name": "Max Fuel Capacity",
+            "name": "Max Fuel Capacity (Leave at Default for Kitbots)",
             "code": "mfc",
             "type": "number"
+            "defaultValue": "15"
         },
          {
             "name": "Robot Style",
@@ -86,7 +87,7 @@ var config_data = `
             }
         },
         {
-            "name": "Comments",
+            "name": "Comments (Keep It Breif)",
             "code": "com",
             "type": "text",
             "size": 20,
