@@ -16,7 +16,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2026milac",
+      "defaultValue": "2026mimus",
       "required": "true"
     },
     { "name": "Match Level",
@@ -65,32 +65,20 @@ var config_data = `
     }
   ],
   "auton": [
-    { "name": "Leave Starting Zone",
-      "code": "alz",
-      "type": "bool"
-    },
     { "name": "Dumps 8",
       "code": "ad8",
       "type": "bool"
     },
-    { "name": "Dumps 100%",
+    { "name": "Shot 1",
       "code": "ad1",
       "type": "counter"
     },
-    { "name": "Dumps 50%",
+    { "name": "Shot 5",
       "code": "ad5",
-      "type": "counter"
-    },
-    { "name": "Dumps 20%",
-      "code": "ad2",
       "type": "counter"
     },
      { "name": "Missed Fuel",
       "code": "amf",
-      "type": "counter"
-    },
-     { "name": "Scored 1 Fuel",
-      "code": "asc",
       "type": "counter"
     },
      { "name": "Climbed to L1",
@@ -103,26 +91,14 @@ var config_data = `
       "code": "taw",
       "type": "bool"
     },
-    { "name": "Dumps 100%",
+    { "name": "Shot 1",
       "code": "td1",
       "type": "counter"
     },
-    { "name": "Dumps 50%",
+    { "name": "Shot 5",
       "code": "td5",
       "type": "counter"
     },
-    { "name": "Dumps 20%",
-      "code": "td2",
-      "type": "counter"
-    },
-     { "name": "Missed Fuel",
-      "code": "tm1",
-      "type": "counter"
-    },
-     { "name": "Scored 1 Fuel",
-      "code": "tsc",
-      "type": "counter"
-    }
   ],
   "endgame": [
     { "name": "Tower Climb Timer",
@@ -139,7 +115,7 @@ var config_data = `
         "bf": "Failed Climb<br>",
         "bx": "Not attempted"
       },
-      "defaultValue": "2"
+      "defaultValue": "bf"
     }
   ],
   "postmatch": [
@@ -161,7 +137,7 @@ var config_data = `
         "N": "No Actions<br>"
       }
     },
-    { "name": "Comments",
+    { "name": "Comments (Keep Breif)",
       "code": "cmm",
       "type": "text",
       "size": 15,
