@@ -7,7 +7,7 @@ var config_data = `
     "prematch": [
         {
             "name": "Event",
-            "code": "evt",
+            "code": "e",
             "type": "text",
             "size": 9,
             "maxSize": 9,
@@ -15,7 +15,7 @@ var config_data = `
         },
          {
             "name": "Scouter Initials",
-            "code": "sci",
+            "code": "s",
             "type": "text",
             "size": 3,
             "maxSize": 3
@@ -52,7 +52,7 @@ var config_data = `
         },
         {
             "name": "Can Climb In Auto?",
-            "code": "auc",
+            "code": "acl",
             "type": "bool"
         },
                 {
