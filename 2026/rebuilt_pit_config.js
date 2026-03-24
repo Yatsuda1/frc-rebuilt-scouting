@@ -84,7 +84,7 @@ var config_data = `
             "choices": {
                 "S": "Shooter<br>",
                 "T": "Turret<br>",
-                "D": "Double Shooter<br>",
+                "D": "2+ Shooter<br>",
                 "K": "Kitbot"
             }
         },
