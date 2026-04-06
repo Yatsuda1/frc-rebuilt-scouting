@@ -16,7 +16,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2026mimus",
+      "defaultValue": "2026mibig",
       "required": "true"
     },
     { "name": "Match Level",
