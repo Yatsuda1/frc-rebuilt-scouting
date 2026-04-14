@@ -51,16 +51,6 @@ var config_data = `
             "defaultValue": "s"
         },
         {
-            "name": "Can Climb In Auto?",
-            "code": "acl",
-            "type": "bool"
-        },
-                {
-            "name": "Can Fit Inside Tower?",
-            "code": "tow",
-            "type": "bool"
-        },
-        {
             "name": "Highest Endgame Hang Level",
             "code": "hng",
             "type": "radio",
@@ -84,7 +74,7 @@ var config_data = `
             "choices": {
                 "S": "Shooter<br>",
                 "T": "Turret<br>",
-                "D": "2+ Shooter<br>",
+                "D": "WCP CC<br>",
                 "K": "Kitbot"
             }
         },
