@@ -65,16 +65,16 @@ var config_data = `
     }
   ],
   "auton": [
-    { "name": "Dumps 8",
-      "code": "ad8",
-      "type": "bool"
-    },
-    { "name": "Shot 1",
+    { "name": "Score 1",
       "code": "as1",
       "type": "counter"
     },
-    { "name": "Shot 5",
+    { "name": "Score 5",
       "code": "as5",
+      "type": "counter"
+    },
+    { "name": "Score 10",
+      "code": "as0",
       "type": "counter"
     },
      { "name": "Missed Fuel",
@@ -91,12 +91,16 @@ var config_data = `
       "code": "taw",
       "type": "bool"
     },
-    { "name": "Shot 1",
+    { "name": "Score 1",
       "code": "ts1",
       "type": "counter"
     },
-    { "name": "Shot 5",
+    { "name": "Score 5",
       "code": "ts5",
+      "type": "counter"
+    },
+    { "name": "Score 10",
+      "code": "ts0",
       "type": "counter"
     },
      { "name": "Missed Fuel",
