@@ -11,7 +11,7 @@ var config_data = `
             "type": "text",
             "size": 9,
             "maxSize": 9,
-            "defaultValue": "2026mimus"
+            "defaultValue": "2026micmp4"
         },
          {
             "name": "Scouter Initials",
