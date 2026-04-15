@@ -22,7 +22,7 @@ var config_data = `
         },
         {
             "name": "Team Number",
-            "code": "ten",
+            "code": "t",
             "type": "number"
         },
        {
