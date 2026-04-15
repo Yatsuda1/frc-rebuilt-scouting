@@ -16,7 +16,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2026mibig",
+      "defaultValue": "2026micmp4",
       "required": "true"
     },
     { "name": "Match Level",
