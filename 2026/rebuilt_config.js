@@ -131,8 +131,8 @@ var config_data = `
       "code": "die",
       "type": "bool"
     },
-    { "name": "Tippy<br>(almost tipped over)",
-      "code": "tip",
+    { "name": "Beached<br(>15 seconds in the match)",
+      "code": "bea",
       "type": "bool"
     },
     { "name": "Downtime Actions",
